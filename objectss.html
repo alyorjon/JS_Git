@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        person = {id:1,name:"Alyor",age:26,place:"Logon"}
+        console.log(person.id+" "+person.name)
+
+        var person_1 = new Object;
+        person_1.id=10;
+        person_1.name='Aisha'
+        console.log(person_1.id,person_1.name)
+    </script>
+
+    <script>
+
+
+        function emp(id,name,place){
+            this.id=id;
+            this.name=name;
+            this.place=place;
+        }
+        em = new emp(4,"AAA","Lagon")
+        console.log(em.id)
+    </script>
+
+    <script>
+
+        var arr2 = new Array(1,"AAA")
+        arr2.length
+        console.log(arr2[0])
+        var daty= new Date;
+        console.log(daty.getFullYear())
+        console.log(daty.setDate())
+        
+    </script>
+</body>
+</html>

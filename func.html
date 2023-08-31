@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        function fun1(name){
+            console.log(`My name is ${name}`);
+
+        }
+        fun1( );
+
+        let num=5;
+        function func2(name){
+            let num =6;
+            num++
+            console.log(num);
+            console.log(`My name is ${name}`);
+
+        }
+        func2(`AAA`)
+        console.log(num)
+        function func3(name,age){
+            alert(`My name is ${name}`)
+            function showskills(){
+                let skills=['html','css']
+                for (let i =0;i<skills.length;i++){
+                    alert(`Your skills is ${skills[i]}`)
+
+                }
+            }
+            showskills()
+
+        }
+
+        function check_age(age){
+            if (age>10){
+                console.log(`Your age is ${age}`)
+
+            }
+            else if (age<10){console.log(`current age is ${age}`)}
+            else {console.log(age)}
+        }
+        check_age(3)
+        // func3('Ali',5)
+        function re1(){
+            return 'hi my name is samar'
+        }
+        // console.log(re1(  ))
+
+    </script>
+    <script src="/usejs.js"></script>
+</body>
+</html>
